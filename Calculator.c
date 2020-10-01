@@ -6,10 +6,11 @@ Description: This is a calculator that does addition, subtraction, multiplicatio
 */
 
 #include <stdio.h>
-static int i, baseNumber, Power, placeHolder, PrimeChecker, dividend, divisor, remainder, choice, addition1, addition2, subtraction1, subtraction2, multiplication1, multiplication2, stopPrime, answer, primeAnswer3, primeAnswer1, primeAnswer2;
-	// USING STATIC VARIABLES BECAUSE MULTIPLE FUCNTIONS USE THE SAME VARIALBES
+static int i, baseNumber, Power, placeHolder, PrimeChecker, dividend, divisor, remainder, choice, addition1, addition2, subtraction1, subtraction2, multiplication1, multiplication2, stopPrime, answer, primeAnswer3, primeAnswer1, primeAnswer2; // USING STATIC VARIABLES BECAUSE MULTIPLE FUCNTIONS USE THE SAME VARIALBES
+
 int main()
 {
+	print("This is a calculator that does addition, subtraction, multiplication, division, modulus, and checks if a number is prime.");
 	printf("1: Addition\n");		// THIS BIT IS THE OPTIONS FOR WHAT CALCULATIONS YOU WANT TO DO
 	printf("2: Subtraction\n");
 	printf("3: Multiplication\n");
